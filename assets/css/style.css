@@ -126,6 +126,7 @@ header {
 
 .name {
     font-family: "Exo", sans-serif;
+    position: relative;
     margin-left: 510px;
     font-weight: 500;
     font-size: 44px;
@@ -135,6 +136,7 @@ header {
 
 .title {
     font-family: "Roboto", sans-serif;
+    position: relative;
     margin-left: 480px;
     font-weight: 400;
     font-size: 30px;
