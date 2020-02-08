@@ -145,10 +145,10 @@ header {
     color: #fff;
 }
 
-/*--------------------------------------------class .row for carousel sizing */
-.row {
-    margin-right: 0;
-    margin-left: 0;
+/*--------------------------------------------class .container-style for carousel sizing */
+.container-style {
+    padding-right: 0px;
+    scroll-padding-left: 0px;
 }
 
 /*--------------------------------------------class .strokeme reference stackoverflow begin */
