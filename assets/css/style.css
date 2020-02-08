@@ -35,7 +35,7 @@
 }
 
 .ui-menu-color-contact {
-    background-color: #525252;
+    background-color: #b3be71;
 }
 
 .row-table {
@@ -126,7 +126,7 @@ header {
 
 .name {
     font-family: "Exo", sans-serif;
-    position: relative;
+    
     margin-left: 180px;
     font-weight: 1000;
     font-size: 44px;
@@ -136,7 +136,7 @@ header {
 
 .title {
     font-family: "Roboto", sans-serif;
-    position: relative;
+    
     margin-left: 150px;
     font-weight: 400;
     font-size: 30px;
@@ -205,8 +205,15 @@ header {
 /*--------------------------------------------Hover.css*/
 
 .hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(43, 33, 33, 0.2);
     height: 120px;
+}
+
+/* ----------------------------------------Carousel Container */
+.carousel-container {
+    background-color: #fff;
+    
+    
 }
 
 /* ----------------------------------------Footer */
