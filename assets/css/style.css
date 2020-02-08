@@ -23,7 +23,7 @@
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    background-color: #e62f22;
 }
 
 .ui-menu-color-resume {
@@ -107,7 +107,7 @@ header {
 }
 
 .logo {
-    background: url("../images/rosie.jpg");
+    background: url("../images/logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
