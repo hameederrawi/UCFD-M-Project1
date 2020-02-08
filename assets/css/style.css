@@ -146,7 +146,7 @@ header {
 }
 
 /*--------------------------------------------class .container-style for carousel sizing */
-.container-style {
+.row {
     margin-right: 0px;
     margin-left: 0px;
 }
