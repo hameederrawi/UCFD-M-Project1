@@ -23,18 +23,18 @@
 }
 
 .ui-menu-color-home {
-    background-color: #e62f22;
+    background-color: #cc1306;
 }
 
-.ui-menu-color-resume {
-    background-color: #9b59b6;
+.ui-menu-color-about {
+    background-color: #9e9e7f;
+}
+
+.ui-menu-color-products {
+    background-color: #f7d307;
 }
 
 .ui-menu-color-contact {
-    background-color: #3498db;
-}
-
-.ui-menu-color-download {
     background-color: #525252;
 }
 
@@ -103,7 +103,7 @@ header {
 }
 
 .heading {
-    margin-left: 50px;
+    margin-left: 0px;
 }
 
 .logo {
@@ -122,21 +122,22 @@ header {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 360px;
 }
 
 .name {
     font-family: "Exo", sans-serif;
-    font-weight: 100;
-    font-size: 46px;
+    margin-left: 510px;
+    font-weight: 500;
+    font-size: 44px;
     margin-top: 50px;
     color: #fff;
 }
 
 .title {
     font-family: "Roboto", sans-serif;
-    font-weight: 200;
-    font-size: 28px;
+    margin-left: 480px;
+    font-weight: 400;
+    font-size: 30px;
     margin-top: 20px;
     margin-bottom: 90px;
     color: #fff;
@@ -206,7 +207,7 @@ footer {
     margin: 0;
 }
 
-.cv-pdf i {
+.brochure-pdf i {
     font-size: 18px;
     color: #fafafa;
     text-align: center;
@@ -217,7 +218,7 @@ footer {
     -o-transition: all 0.35s ease-in-out;
 }
 
-.cv-pdf i:hover {
+.brochure-pdf i:hover {
     color: #e84610;
 }
 
