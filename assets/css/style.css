@@ -145,6 +145,12 @@ header {
     color: #fff;
 }
 
+/*--------------------------------------------class .row for carousel sizing */
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
 /*--------------------------------------------class .strokeme reference stackoverflow begin */
 
 .strokeme {
@@ -207,13 +213,6 @@ header {
 .hvr-sweep-to-bottom:before {
     background: rgba(43, 33, 33, 0.2);
     height: 120px;
-}
-
-/* ----------------------------------------Carousel Container */
-.carousel-container {
-    background-color: #fff;
-    
-    
 }
 
 /* ----------------------------------------Footer */
