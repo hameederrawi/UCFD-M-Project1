@@ -147,8 +147,8 @@ header {
 
 /*--------------------------------------------class .container-style for carousel sizing */
 .container-style {
-    padding-right: 0px;
-    scroll-padding-left: 0px;
+    margin-right: 0px;
+    margin-left: 0px;
 }
 
 /*--------------------------------------------class .strokeme reference stackoverflow begin */
