@@ -2,9 +2,6 @@
 
 /*--------------------------------------------Colors*/
 
-.bg-color-name-title {
-    background-color: #676767;
-}
 
 .bg-color-three-reasons {
     background-color: #fff;
@@ -27,32 +24,19 @@
 }
 
 .ui-menu-color-about {
-    background-color: #9e9e7f;
+    background-color: #ab9672;
 }
 
 .ui-menu-color-products {
-    background-color: #f7d307;
+    background-color: #d1af6f;
 }
 
 .ui-menu-color-contact {
-    background-color: #848182;
+    background-color: #848283;
 }
 
 .row-table {
     display: table;
-}
-
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
-.section-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
 }
 
 /* ----------------------------------------Special paddings/margins/text */
@@ -68,32 +52,16 @@ h4 {
     text-transform: uppercase;
 }
 
+/*--------------------------------------------class .strokeme reference stackoverflow */
 .general-sub {
     font-family: "Exo", sans-serif;
-    font-weight: 300;
-    color: #fafafa;
+    font-weight: 500;
+    color: white;
+    text-shadow: -1px -1px 0 #d42617, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
 .inline-block {
     display: inline-block;
-}
-
-.row-table {
-    display: table;
-}
-
-.section-column {
-    display: table-cell;
-    padding: 0 30px 30px;
-    float: none;
-}
-
-.history-heading,
-.section-heading {
-    font-family: "Exo", sans-serif;
-    font-weight: 300;
-    margin-top: 25px;
-    margin-bottom: 40px;
 }
 
 /*--------------------------------------------Heading*/
@@ -145,20 +113,32 @@ header {
     color: #fff;
 }
 
-/*--------------------------------------------class .container-style for carousel sizing */
-.row {
-    margin-right: 0px;
-    margin-left: 0px;
-}
-
-/*--------------------------------------------class .strokeme reference stackoverflow begin */
+/*--------------------------------------------class .strokeme reference stackoverflow */
 
 .strokeme {
   color: white;
   text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
 }
 
-/*--------------------------------------------class .strokeme reference stackoverflow end */
+/*--------------------------------------------class p::first-letter reference w3schools **NEED some help** */
+
+p1::first-letter {
+  font-size: 200%;
+  color: #d42617;
+  font-family: helvetica;
+}
+
+p1 {
+    height: 80px;
+}
+
+/*--------------------------------------------class .container-style for carousel sizing */
+.row {
+    margin-right: 0px;
+    margin-left: 0px;
+}
+
+/*--------------------------------------------menuitem */
 
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -218,7 +198,7 @@ header {
 /* ----------------------------------------Footer */
 
 footer {
-    background-color: #525252;
+    background-color: #848283;
     color: #fafafa;
     min-height: 120px;
     margin: 0;
@@ -267,121 +247,6 @@ footer {
     padding: 20px;
 }
 
-/* ----------------------------------------Three Reasons */
-
-.three-reasons-icon {
-    font-size: 26px;
-    color: #e67e22;
-}
-
-.three-reasons-heading {
-    margin-bottom: 15px;
-}
-
-/* ----------------------------------------Personal Info */
-
-.personal-info-item {
-    margin-bottom: 20px;
-    display: block;
-    clear: both;
-}
-
-.personal-info-item .key,
-.personal-info-item .value {
-    padding-right: 8px;
-    display: inline-block;
-}
-
-.personal-info-item .key p,
-.personal-info-item .value p {
-    margin: 0;
-}
-
-.personal-info-item .key {
-    width: 30%;
-    margin-right: 21px;
-    padding-top: 2px;
-    vertical-align: top;
-}
-
-.personal-info-item .key p {
-    font-weight: 700;
-}
-
-.personal-info-item .value {
-    position: relative;
-    width: 60%;
-}
-
-/* ----------------------------------------Skills */
-
-.progress {
-    position: relative;
-    height: 25px;
-    margin-bottom: 4px;
-}
-
-.progress-type {
-    position: absolute;
-    left: 0px;
-    font-weight: 400;
-    padding: 3px 30px 2px 10px;
-    color: #fafafa;
-    background-color: rgba(25, 25, 25, 0.2);
-}
-
-.progress-section {
-    margin: 40px 20px;
-}
-
-/* ----------------------------------------Work History */
-
-.history-heading {
-    color: #fafafa;
-    margin-bottom: 50px;
-}
-
-.timeline-item {
-    padding: 4em 2em 0em 2em;
-    position: relative;
-    color: #fafafa;
-    border-left: 1px solid;
-}
-
-.timeline-item p {
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:before {
-    content: attr(data-dates);
-    position: absolute;
-    left: 2.5em;
-    top: 3em;
-    display: block;
-    font-family: "Exo", sans-serif;
-    font-weight: 500;
-    font-size: 0.8em;
-    padding: 0;
-    margin: 0;
-}
-
-.timeline-item:after {
-    width: 12px;
-    height: 12px;
-    display: block;
-    top: 2.4em;
-    position: absolute;
-    left: -6px;
-    border-radius: 12px;
-    content: '';
-    background: #fafafa;
-}
-
-.history-items {
-    margin-bottom: 30px;
-}
-
 /* ----------------------------------------Contact Form */
 
 .contact-heading {
@@ -401,7 +266,7 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color: #e84610;
+    background-color: #d42617;
 }
 
 /* ----------------------------------------Media Queries */
