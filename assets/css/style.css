@@ -281,6 +281,12 @@ button[type="submit"] {
     background-color: #d42617;
 }
 
+.table td, .table th {
+    padding: .75rem;
+    vertical-align: top;
+    border-top: 0px solid #dee2e6;
+}
+
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
