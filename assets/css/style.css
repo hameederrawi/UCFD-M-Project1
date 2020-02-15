@@ -139,8 +139,8 @@ h1 {
 /*--------------------------------------------class .container-style for carousel sizing */
 
 .container-style {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 1px;
+    padding-left: 1px;
 
 }
 
