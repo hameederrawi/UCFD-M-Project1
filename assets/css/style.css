@@ -266,6 +266,8 @@ footer {
 #footer-details {
     padding: 20px;
 }
+/* --------------------------------------------- */
+
 
 /* ----------------------------------------Contact Form */
 
@@ -302,18 +304,18 @@ button[type="submit"] {
 }
 
 /* ----------------------------------------Zoom Hover from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_zoom_hover */
-.zoom {
+/* .zoom {
   padding: 50px;
-  /* background-color: green;*/
+  /* background-color: green;
   transition: transform .2s; /* Animation */
-  width: 110px;
+ /* width: 110px;
   height: 110px;
   margin: 0 auto;
-}
+/* }
 
 .zoom:hover {
   transform: scale(4.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  position: relative;
+ /* position: relative;
 }
 
 /* ----------------------------------------Zoom Hover from https://codepen.io/preecb/pen/mdJJdLy */
@@ -354,3 +356,27 @@ button[type="submit"] {
         max-width: 50%;
     }
 }
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 160px;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border-color: #f05f40;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    background-color: #df4929;
+    border-color: #df4929;
+    color: white;
+}
+
