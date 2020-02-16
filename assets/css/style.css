@@ -300,6 +300,50 @@ button[type="submit"] {
     margin-top: 10px;
     background: url("http://realitydecor.com/assets/ROMANTICO/372345.jpg") ;
 }
+
+/* ----------------------------------------Zoom Hover from https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_zoom_hover */
+.zoom {
+  padding: 50px;
+  /* background-color: green;*/
+  transition: transform .2s; /* Animation */
+  width: 110px;
+  height: 110px;
+  margin: 0 auto;
+}
+
+.zoom:hover {
+  transform: scale(4.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  position: relative;
+}
+
+/* ----------------------------------------Zoom Hover from https://codepen.io/preecb/pen/mdJJdLy */
+* {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+    padding: 0;
+}
+
+.image-box {
+    position: relative;
+    margin: auto;
+    overflow: hidden;
+    width: 100px;
+}
+.image-box img {
+    max-width: 100%;
+    transition: all 2.0s;
+    display: block;
+    width: 100%;
+    height: auto;
+    transform: scale(1);
+}
+
+.image-box:hover img {
+    transform: scale(2.9);
+}
+
 /* ----------------------------------------Media Queries */
 
 @media(min-width: 992px) {
