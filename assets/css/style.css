@@ -126,7 +126,7 @@ after replacing P with h1 and target h1 with ::first-letter, this way other P el
 
 h1::first-letter {
   font-size: 200%;
-  color: #ffffff;
+  color: #d42617;
   font-family: helvetica;
   font-weight: bold;
   
@@ -381,8 +381,6 @@ button[type="submit"] {
 }
 
 .jumbotron {
-    padding: 2rem 1rem;
-    margin-bottom: 2rem;
     background-color: #ffffff;
-    border-radius: .3rem;
+    
 }
