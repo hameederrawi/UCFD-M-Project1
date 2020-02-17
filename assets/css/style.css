@@ -74,8 +74,9 @@ header {
     margin-left: 0px;
 }
 
+/*
 .logo {
-    background: url("../images/logo.png");
+    background: url("https://hameederrawi.github.io/UCFD-M-Project1/images/logo.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -84,7 +85,7 @@ header {
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
 }
-
+*/
 .logo-size {
     width: 70%; 
     height: 80px;
