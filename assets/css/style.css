@@ -401,5 +401,6 @@ now at the next media query below */
 
 .jumbotron {
     background-color: #ffffff;
+    margin-bottom: 0;
     
 }
