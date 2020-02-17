@@ -303,26 +303,20 @@ button[type="submit"] {
     
 }
 
-/* ----------------------------------------from google dev tools "found a problem with table margin" fixed top margin, still a problem with bottom on small screen */
+/* ----------------------------------------from google dev tools "found a problem with table margin" fixed top margin, still a problem with bottom on small screen - fixed
+now at the next media query below */
 .table {
     margin-top: 0;
     margin-bottom: 0;
     background: url("http://realitydecor.com/assets/ROMANTICO/372345.jpg") ;
 }
 
-/*@media screen and (max-width: 767px){
-    .table {
-        
-        margin-bottom: 0;
-        
-    }
-} 
 
 /* ----------------------------------------from google dev tools "found a problem with table border color" fixed by adding this media query */
 @media screen and (max-width: 767px){
     .table-responsive {
         width: 100%;
-        margin-bottom: 15px;
+        margin-bottom: 0px;
         overflow-y: hidden;
         -ms-overflow-style: -ms-autohiding-scrollbar;
         border: 0px;
