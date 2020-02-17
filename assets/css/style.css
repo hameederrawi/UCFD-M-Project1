@@ -85,6 +85,11 @@ header {
     -webkit-transition: all .5s ease-in-out;
 }
 
+.logo-size {
+    width: 70%; 
+    height: 80px;
+}
+
 .imagetop {
     background: url("../images/imagetop.jpg");
     background-position: center;
