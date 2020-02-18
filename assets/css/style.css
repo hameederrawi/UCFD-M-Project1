@@ -405,17 +405,7 @@ now at the next media query below */
     margin-bottom: 0;
     padding-top: 0px;
     padding-bottom: 0px;
-    color: inherit;      
-}
-@media screen and (min-width: 768px) {
-   .jumbotron {
-    padding-top: 0px; 
-    padding-bottom: 0px;
-   }
-}
-
-@media (min-width: 576px){
-.jumbotron {
-    padding: 0rem 0rem;
-    }
+    color: inherit;
+    margin-top: 0;
+    padding: 0rem 0rem;      
 }
