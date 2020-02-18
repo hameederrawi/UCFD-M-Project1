@@ -1,35 +1,109 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+Reality Decor
 
-Welcome hameederrawi,
+This project is for a high quality wallpaper and furniture company called THE A.S. CRÉATION GROUP that has many branches and distributors worldwide.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+This website is for THE A.S. CRÉATION GROUP Middle-East distributors, to sell the group products online. 
 
-## Gitpod Reminders
+The wallpapers are primarily produced in Germany at A.S. Création Tapeten AG on the site in Wiehl-Bomig.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+Reality Decor offers its customers a wide range of services: comprehensive departmental planning, shop-fitting, ordering, decoration, individual marketing concepts, sales promotional packages, concepts for point-of-sale (POS), as well as a 24-hour delivery service.
 
-`python3 -m http.server`
+ 
+## UX
 
-A blue button should appear to click: *Expose*,
+This website has many products on display that will help the user to select from and request a quote on products they are interested in purchasing.
 
-Another blue button should appear to click: *Open Browser*.
+The user can click on the products section to view a page consisting of a table of products, when the user hover the mouse over a product, the zoom effect will apply to enlarge the image for more detailed view.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+when the user click on the selected product, a new page will open with the selected product image, the same zoom on mouse effect is available.
 
-A blue button should appear to click: *Expose*,
+The selected product will have a title of the collection name and the catalogue number and a button labled Get a Quote.
 
-Another blue button should appear to click: *Open Browser*.
+When the Get a Quote button is clicked, the user will be presented by a popup modal with a submit button that will allow the user to enter their details, the email, first and last name are required fields the telephone number is an optional field.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+when the user complete the form, they can click the submit button for thier details to be transmitted  (on a working modal) to the website owners for processing.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+The website has the following links;
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+Home: on click - redirects the user to the home page.
+About: on click - redirects the user to the about page for a brief introduction to the business.
+Products: on click - redirects the user to the products page.
+Contact: on click - redirects the user to the contact page, displaying a form for submission with all required fields.
+Social: on click - redirects the user to the relevant social network.
+Logo: on click - redirects the user to the home page.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Wireframe link:
 
---------
 
-Happy coding!
+## Features
+
+The project consist of the following features:
+Strokeme text effect, adding color effect to the outline of the text in the name.
+p::first-letter text effect, changing the first letter color and font type in the name.
+A Carousel displaying featured products.
+A Hover effect to menu items.
+A Hover zoom effect to the products images.
+A Hover change color effect to the social network and download links.
+
+
+## Technologies Used
+Html, CSS and Java Script
+
+    <!-- Added link to bootstrap 4.2.1 for bootstrap styles to work -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" type="text/css" />
+    <!-- Added link to bootstrap 3.4.1 for carousel to work -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <!-- Added link to cloudflare.com styles for hover to work -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.1.1/css/hover-min.css" type="text/css" />
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- added javascript source from bootstrap for carousel to work -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<! -------------------------- java script for modal function ---->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+ <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>   
+
+
+
+## Testing
+
+Tested all links in the project, they are all working as intended.
+
+
+The project works on all screen sizes as intended.
+
+
+## Deployment
+
+project was deployed to Github by;
+git add .
+git commit
+git push
+
+
+## Credits
+
+code institute
+google dev tools
+bootstrap
+cloudflare
+googleapis
+stackoverflow
+w3schools
+codepen
+
+
+### Content
+
+The text for "About Section" was copied from http://www.as-creation.com/company/about-us.html
+
+
+### Media
+The photos used in this site were obtained from Reality Decor and from The A.S. Création Group
+
+### Acknowledgements
+
+I received inspiration for this project from myself and my wife.
